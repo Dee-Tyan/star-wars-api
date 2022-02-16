@@ -1,0 +1,95 @@
+
+body {
+    height: 100vh;
+    background: url(/images/newbackground.jpg) no-repeat center/cover fixed;
+    color: blanchedalmond;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+/* display: flex;
+    flex-wrap: wrap;
+*/
+
+.debbie {
+    text-align: center;
+    display: inline;
+    height: 300px;
+    width: 250px;
+}
+
+.imgg .created {
+    color: #fff;
+    margin-top: 5rem;
+}
+/* .profile {
+    display: none;
+} */
+
+.character {
+  width: 17%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.overall {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profile {
+    height: 0px;
+    overflow: hidden;
+    color: black;
+    background-color: blanchedalmond;
+    padding-left: 10px;
+    font-weight: bolder;
+  }
+  .profile p {
+    margin-top: 5px;
+  }
+  @media screen and (min-width: 701px) and (max-width: 900px) {
+    .character {
+      width: 30%;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 700px) {
+    .character {
+      width: 47%;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .character {
+      width: 97%;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+  
+
+
+
+footer {
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+   padding: 20px;
+}
