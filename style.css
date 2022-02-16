@@ -18,15 +18,10 @@ body {
     display: inline;
     height: 300px;
     width: 250px;
+    border: blanchedalmond solid;
 }
 
-.imgg .created {
-    color: #fff;
-    margin-top: 5rem;
-}
-/* .profile {
-    display: none;
-} */
+
 
 .character {
   width: 17%;
@@ -34,7 +29,9 @@ body {
   margin-right: 1.5%;
   margin-bottom: 20px;
   margin-top: 20px;
+  
 }
+
 .overall {
     width: 100%;
     display:flex;
